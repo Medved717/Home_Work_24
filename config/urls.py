@@ -17,19 +17,15 @@ Including another URLconf
 
 from django.contrib import admin
 from django.urls import path, include
-<<<<<<< HEAD
-=======
 from django.conf import settings
 from django.conf.urls.static import static
 
->>>>>>> upper/feature/task_01
 
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("", include("catalog.urls", namespace="catalog"))
 ]
-<<<<<<< HEAD
-=======
+
 
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
->>>>>>> upper/feature/task_01
+
