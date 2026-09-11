@@ -10,6 +10,9 @@ requires-python = ">=3.14"
 dependencies = [
     "dotenv (>=0.9.9,<0.10.0)",
     "psycopg2-binary (>=2.9.12,<3.0.0)",
+    "django (>=6.1.1,<7.0.0)",
+    "pillow (>=12.3.0,<13.0.0)",
+    "ipython (>=9.17.1,<10.0.0)"
     "django (>=6.1.1,<7.0.0)"
 ]
 

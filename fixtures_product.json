@@ -1,0 +1,652 @@
+[
+    {
+        "model": "catalog.product",
+        "pk": 1,
+        "fields": {
+            "name": "Конфета \"Красная шапочка\"",
+            "description": "Это продукт под названием - конфета \"Красная шапочка\"",
+            "image": "",
+            "category": 12,
+            "buying_price": "95.00",
+            "created_at": "2026-09-08",
+            "updated_at": "2026-09-08T13:00:00.000Z"
+        }
+    },
+    {
+        "model": "catalog.product",
+        "pk": 2,
+        "fields": {
+            "name": "Молоко 3.2% 1л",
+            "description": "Это продукт под названием - молоко 3.2% 1л",
+            "image": "",
+            "category": 1,
+            "buying_price": "78.00",
+            "created_at": "2026-09-08",
+            "updated_at": "2026-09-08T13:01:00.000Z"
+        }
+    },
+    {
+        "model": "catalog.product",
+        "pk": 3,
+        "fields": {
+            "name": "Био-йогурт 200г",
+            "description": "Это продукт под названием - био-йогурт 200г",
+            "image": "",
+            "category": 1,
+            "buying_price": "65.00",
+            "created_at": "2026-09-08",
+            "updated_at": "2026-09-08T13:02:00.000Z"
+        }
+    },
+    {
+        "model": "catalog.product",
+        "pk": 4,
+        "fields": {
+            "name": "Багет классический",
+            "description": "Это продукт под названием - багет классический",
+            "image": "",
+            "category": 2,
+            "buying_price": "42.00",
+            "created_at": "2026-09-08",
+            "updated_at": "2026-09-08T13:03:00.000Z"
+        }
+    },
+    {
+        "model": "catalog.product",
+        "pk": 5,
+        "fields": {
+            "name": "Томаты черри 250г",
+            "description": "Это продукт под названием - томаты черри 250г",
+            "image": "",
+            "category": 3,
+            "buying_price": "120.00",
+            "created_at": "2026-09-08",
+            "updated_at": "2026-09-08T13:04:00.000Z"
+        }
+    },
+    {
+        "model": "catalog.product",
+        "pk": 6,
+        "fields": {
+            "name": "Апельсины 1кг",
+            "description": "Это продукт под названием - апельсины 1кг",
+            "image": "",
+            "category": 4,
+            "buying_price": "150.00",
+            "created_at": "2026-09-08",
+            "updated_at": "2026-09-08T13:05:00.000Z"
+        }
+    },
+    {
+        "model": "catalog.product",
+        "pk": 7,
+        "fields": {
+            "name": "Свинина шея 1кг",
+            "description": "Это продукт под названием - свинина шея 1кг",
+            "image": "",
+            "category": 5,
+            "buying_price": "480.00",
+            "created_at": "2026-09-08",
+            "updated_at": "2026-09-08T13:06:00.000Z"
+        }
+    },
+    {
+        "model": "catalog.product",
+        "pk": 8,
+        "fields": {
+            "name": "Филе лосося 300г",
+            "description": "Это продукт под названием - филе лосося 300г",
+            "image": "",
+            "category": 6,
+            "buying_price": "650.00",
+            "created_at": "2026-09-08",
+            "updated_at": "2026-09-08T13:07:00.000Z"
+        }
+    },
+    {
+        "model": "catalog.product",
+        "pk": 9,
+        "fields": {
+            "name": "Вода минеральная 1.5л",
+            "description": "Это продукт под названием - вода минеральная 1.5л",
+            "image": "",
+            "category": 7,
+            "buying_price": "35.00",
+            "created_at": "2026-09-08",
+            "updated_at": "2026-09-08T13:08:00.000Z"
+        }
+    },
+    {
+        "model": "catalog.product",
+        "pk": 10,
+        "fields": {
+            "name": "Белое сухое вино 0.75л",
+            "description": "Это продукт под названием - белое сухое вино 0.75л",
+            "image": "",
+            "category": 8,
+            "buying_price": "750.00",
+            "created_at": "2026-09-08",
+            "updated_at": "2026-09-08T13:09:00.000Z"
+        }
+    },
+    {
+        "model": "catalog.product",
+        "pk": 11,
+        "fields": {
+            "name": "Замороженные ягоды 500г",
+            "description": "Это продукт под названием - замороженные ягоды 500г",
+            "image": "",
+            "category": 9,
+            "buying_price": "250.00",
+            "created_at": "2026-09-08",
+            "updated_at": "2026-09-08T13:10:00.000Z"
+        }
+    },
+    {
+        "model": "catalog.product",
+        "pk": 12,
+        "fields": {
+            "name": "Зелёный горошек 400г",
+            "description": "Это продукт под названием - зелёный горошек 400г",
+            "image": "",
+            "category": 10,
+            "buying_price": "80.00",
+            "created_at": "2026-09-08",
+            "updated_at": "2026-09-08T13:11:00.000Z"
+        }
+    },
+    {
+        "model": "catalog.product",
+        "pk": 13,
+        "fields": {
+            "name": "Картофельные чипсы 120г",
+            "description": "Это продукт под названием - картофельные чипсы 120г",
+            "image": "",
+            "category": 11,
+            "buying_price": "90.00",
+            "created_at": "2026-09-08",
+            "updated_at": "2026-09-08T13:12:00.000Z"
+        }
+    },
+    {
+        "model": "catalog.product",
+        "pk": 14,
+        "fields": {
+            "name": "Печенье овсяное 300г",
+            "description": "Это продукт под названием - печенье овсяное 300г",
+            "image": "",
+            "category": 12,
+            "buying_price": "85.00",
+            "created_at": "2026-09-08",
+            "updated_at": "2026-09-08T13:13:00.000Z"
+        }
+    },
+    {
+        "model": "catalog.product",
+        "pk": 15,
+        "fields": {
+            "name": "Салат витаминный 300г",
+            "description": "Это продукт под названием - салат витаминный 300г",
+            "image": "",
+            "category": 13,
+            "buying_price": "180.00",
+            "created_at": "2026-09-08",
+            "updated_at": "2026-09-08T13:14:00.000Z"
+        }
+    },
+    {
+        "model": "catalog.product",
+        "pk": 16,
+        "fields": {
+            "name": "Детское пюре яблочное 100г",
+            "description": "Это продукт под названием - детское пюре яблочное 100г",
+            "image": "",
+            "category": 14,
+            "buying_price": "55.00",
+            "created_at": "2026-09-08",
+            "updated_at": "2026-09-08T13:15:00.000Z"
+        }
+    },
+    {
+        "model": "catalog.product",
+        "pk": 17,
+        "fields": {
+            "name": "Универсальная мука 1кг",
+            "description": "Это продукт под названием - универсальная мука 1кг",
+            "image": "",
+            "category": 15,
+            "buying_price": "65.00",
+            "created_at": "2026-09-08",
+            "updated_at": "2026-09-08T13:16:00.000Z"
+        }
+    },
+    {
+        "model": "catalog.product",
+        "pk": 18,
+        "fields": {
+            "name": "Чёрный молотый перец 50г",
+            "description": "Это продукт под названием - чёрный молотый перец 50г",
+            "image": "",
+            "category": 16,
+            "buying_price": "120.00",
+            "created_at": "2026-09-08",
+            "updated_at": "2026-09-08T13:17:00.000Z"
+        }
+    },
+    {
+        "model": "catalog.product",
+        "pk": 19,
+        "fields": {
+            "name": "Гречневая крупа 800г",
+            "description": "Это продукт под названием - гречневая крупа 800г",
+            "image": "",
+            "category": 17,
+            "buying_price": "95.00",
+            "created_at": "2026-09-08",
+            "updated_at": "2026-09-08T13:18:00.000Z"
+        }
+    },
+    {
+        "model": "catalog.product",
+        "pk": 20,
+        "fields": {
+            "name": "Пшеничные макароны 400г",
+            "description": "Это продукт под названием - пшеничные макароны 400г",
+            "image": "",
+            "category": 18,
+            "buying_price": "70.00",
+            "created_at": "2026-09-08",
+            "updated_at": "2026-09-08T13:19:00.000Z"
+        }
+    },
+    {
+        "model": "catalog.product",
+        "pk": 21,
+        "fields": {
+            "name": "Оливковое масло 500мл",
+            "description": "Это продукт под названием - оливковое масло 500мл",
+            "image": "",
+            "category": 19,
+            "buying_price": "550.00",
+            "created_at": "2026-09-08",
+            "updated_at": "2026-09-08T13:20:00.000Z"
+        }
+    },
+    {
+        "model": "catalog.product",
+        "pk": 22,
+        "fields": {
+            "name": "Зелёный чай 100г",
+            "description": "Это продукт под названием - зелёный чай 100г",
+            "image": "",
+            "category": 20,
+            "buying_price": "180.00",
+            "created_at": "2026-09-08",
+            "updated_at": "2026-09-08T13:21:00.000Z"
+        }
+    },
+    {
+        "model": "catalog.product",
+        "pk": 23,
+        "fields": {
+            "name": "Свеча ароматическая",
+            "description": "Это продукт под названием - свеча ароматическая",
+            "image": "",
+            "category": 21,
+            "buying_price": "150.00",
+            "created_at": "2026-09-08",
+            "updated_at": "2026-09-08T13:22:00.000Z"
+        }
+    },
+    {
+        "model": "catalog.product",
+        "pk": 24,
+        "fields": {
+            "name": "Ватные диски 100шт",
+            "description": "Это продукт под названием - ватные диски 100шт",
+            "image": "",
+            "category": 22,
+            "buying_price": "55.00",
+            "created_at": "2026-09-08",
+            "updated_at": "2026-09-08T13:23:00.000Z"
+        }
+    },
+    {
+        "model": "catalog.product",
+        "pk": 25,
+        "fields": {
+            "name": "Средство для мытья посуды 500мл",
+            "description": "Это продукт под названием - средство для мытья посуды 500мл",
+            "image": "",
+            "category": 23,
+            "buying_price": "85.00",
+            "created_at": "2026-09-08",
+            "updated_at": "2026-09-08T13:24:00.000Z"
+        }
+    },
+    {
+        "model": "catalog.product",
+        "pk": 26,
+        "fields": {
+            "name": "Электрочайник 1.7л",
+            "description": "Это продукт под названием - электрочайник 1.7л",
+            "image": "",
+            "category": 24,
+            "buying_price": "1990.00",
+            "created_at": "2026-09-08",
+            "updated_at": "2026-09-08T13:25:00.000Z"
+        }
+    },
+    {
+        "model": "catalog.product",
+        "pk": 27,
+        "fields": {
+            "name": "Роман \"Три товарища\"",
+            "description": "Это продукт под названием - роман \"Три товарища\"",
+            "image": "",
+            "category": 25,
+            "buying_price": "350.00",
+            "created_at": "2026-09-08",
+            "updated_at": "2026-09-08T13:26:00.000Z"
+        }
+    },
+    {
+        "model": "catalog.product",
+        "pk": 28,
+        "fields": {
+            "name": "Роман \"Три товарища\"",
+            "description": "Это продукт под названием - роман \"Три товарища\"",
+            "image": "",
+            "category": 25,
+            "buying_price": "350.00",
+            "created_at": "2026-09-08",
+            "updated_at": "2026-09-08T13:26:00.000Z"
+        }
+    },
+    {
+        "model": "catalog.product",
+        "pk": 29,
+        "fields": {
+            "name": "Карамель \"Леденцовая\"",
+            "description": "Это продукт под названием - карамель \"Леденцовая\"",
+            "image": "",
+            "category": 12,
+            "buying_price": "65.00",
+            "created_at": "2026-09-08",
+            "updated_at": "2026-09-08T13:27:00.000Z"
+        }
+    },
+    {
+        "model": "catalog.product",
+        "pk": 30,
+        "fields": {
+            "name": "Кефир 2.5% 1л",
+            "description": "Это продукт под названием - кефир 2.5% 1л",
+            "image": "",
+            "category": 1,
+            "buying_price": "85.00",
+            "created_at": "2026-09-08",
+            "updated_at": "2026-09-08T13:28:00.000Z"
+        }
+    },
+    {
+        "model": "catalog.product",
+        "pk": 31,
+        "fields": {
+            "name": "Булочка \"Сдобная\"",
+            "description": "Это продукт под названием - булочка \"Сдобная\"",
+            "image": "",
+            "category": 2,
+            "buying_price": "35.00",
+            "created_at": "2026-09-08",
+            "updated_at": "2026-09-08T13:29:00.000Z"
+        }
+    },
+    {
+        "model": "catalog.product",
+        "pk": 32,
+        "fields": {
+            "name": "Помидор грунтовый 1кг",
+            "description": "Это продукт под названием - помидор грунтовый 1кг",
+            "image": "",
+            "category": 3,
+            "buying_price": "150.00",
+            "created_at": "2026-09-08",
+            "updated_at": "2026-09-08T13:30:00.000Z"
+        }
+    },
+    {
+        "model": "catalog.product",
+        "pk": 33,
+        "fields": {
+            "name": "Бананы 1кг",
+            "description": "Это продукт под названием - бананы 1кг",
+            "image": "",
+            "category": 4,
+            "buying_price": "110.00",
+            "created_at": "2026-09-08",
+            "updated_at": "2026-09-08T13:31:00.000Z"
+        }
+    },
+    {
+        "model": "catalog.product",
+        "pk": 34,
+        "fields": {
+            "name": "Куриная грудка 1кг",
+            "description": "Это продукт под названием - куриная грудка 1кг",
+            "image": "",
+            "category": 5,
+            "buying_price": "300.00",
+            "created_at": "2026-09-08",
+            "updated_at": "2026-09-08T13:32:00.000Z"
+        }
+    },
+    {
+        "model": "catalog.product",
+        "pk": 35,
+        "fields": {
+            "name": "Креветки королевские 500г",
+            "description": "Это продукт под названием - креветки королевские 500г",
+            "image": "",
+            "category": 6,
+            "buying_price": "750.00",
+            "created_at": "2026-09-08",
+            "updated_at": "2026-09-08T13:33:00.000Z"
+        }
+    },
+    {
+        "model": "catalog.product",
+        "pk": 36,
+        "fields": {
+            "name": "Сок яблочный 1л",
+            "description": "Это продукт под названием - сок яблочный 1л",
+            "image": "",
+            "category": 7,
+            "buying_price": "95.00",
+            "created_at": "2026-09-08",
+            "updated_at": "2026-09-08T13:34:00.000Z"
+        }
+    },
+    {
+        "model": "catalog.product",
+        "pk": 37,
+        "fields": {
+            "name": "Красное полусладкое вино 0.75л",
+            "description": "Это продукт под названием - красное полусладкое вино 0.75л",
+            "image": "",
+            "category": 8,
+            "buying_price": "680.00",
+            "created_at": "2026-09-08",
+            "updated_at": "2026-09-08T13:35:00.000Z"
+        }
+    },
+    {
+        "model": "catalog.product",
+        "pk": 38,
+        "fields": {
+            "name": "Мороженое ванильное 500г",
+            "description": "Это продукт под названием - мороженое ванильное 500г",
+            "image": "",
+            "category": 9,
+            "buying_price": "180.00",
+            "created_at": "2026-09-08",
+            "updated_at": "2026-09-08T13:36:00.000Z"
+        }
+    },
+    {
+        "model": "catalog.product",
+        "pk": 39,
+        "fields": {
+            "name": "Кукуруза консервированная 340г",
+            "description": "Это продукт под названием - кукуруза консервированная 340г",
+            "image": "",
+            "category": 10,
+            "buying_price": "75.00",
+            "created_at": "2026-09-08",
+            "updated_at": "2026-09-08T13:37:00.000Z"
+        }
+    },
+    {
+        "model": "catalog.product",
+        "pk": 40,
+        "fields": {
+            "name": "Попкорн сладкий 90г",
+            "description": "Это продукт под названием - попкорн сладкий 90г",
+            "image": "",
+            "category": 11,
+            "buying_price": "55.00",
+            "created_at": "2026-09-08",
+            "updated_at": "2026-09-08T13:38:00.000Z"
+        }
+    },
+    {
+        "model": "catalog.product",
+        "pk": 41,
+        "fields": {
+            "name": "Шоколад горький 90г",
+            "description": "Это продукт под названием - шоколад горький 90г",
+            "image": "",
+            "category": 12,
+            "buying_price": "110.00",
+            "created_at": "2026-09-08",
+            "updated_at": "2026-09-08T13:39:00.000Z"
+        }
+    },
+    {
+        "model": "catalog.product",
+        "pk": 42,
+        "fields": {
+            "name": "Мюсли с орехами 350г",
+            "description": "Это продукт под названием - мюсли с орехами 350г",
+            "image": "",
+            "category": 13,
+            "buying_price": "145.00",
+            "created_at": "2026-09-08",
+            "updated_at": "2026-09-08T13:40:00.000Z"
+        }
+    },
+    {
+        "model": "catalog.product",
+        "pk": 43,
+        "fields": {
+            "name": "Детская каша 200г",
+            "description": "Это продукт под названием - детская каша 200г",
+            "image": "",
+            "category": 14,
+            "buying_price": "120.00",
+            "created_at": "2026-09-08",
+            "updated_at": "2026-09-08T13:41:00.000Z"
+        }
+    },
+    {
+        "model": "catalog.product",
+        "pk": 44,
+        "fields": {
+            "name": "Универсальная мука 1кг",
+            "description": "Это продукт под названием - универсальная мука 1кг",
+            "image": "",
+            "category": 15,
+            "buying_price": "65.00",
+            "created_at": "2026-09-08",
+            "updated_at": "2026-09-08T13:42:00.000Z"
+        }
+    },
+    {
+        "model": "catalog.product",
+        "pk": 45,
+        "fields": {
+            "name": "Чёрный молотый перец 50г",
+            "description": "Это продукт под названием - чёрный молотый перец 50г",
+            "image": "",
+            "category": 16,
+            "buying_price": "120.00",
+            "created_at": "2026-09-08",
+            "updated_at": "2026-09-08T13:43:00.000Z"
+        }
+    },
+    {
+        "model": "catalog.product",
+        "pk": 46,
+        "fields": {
+            "name": "Гречневая крупа 800г",
+            "description": "Это продукт под названием - гречневая крупа 800г",
+            "image": "",
+            "category": 17,
+            "buying_price": "95.00",
+            "created_at": "2026-09-08",
+            "updated_at": "2026-09-08T13:44:00.000Z"
+        }
+    },
+    {
+        "model": "catalog.product",
+        "pk": 47,
+        "fields": {
+            "name": "Пшеничные макароны 400г",
+            "description": "Это продукт под названием - пшеничные макароны 400г",
+            "image": "",
+            "category": 18,
+            "buying_price": "70.00",
+            "created_at": "2026-09-08",
+            "updated_at": "2026-09-08T13:45:00.000Z"
+        }
+    },
+    {
+        "model": "catalog.product",
+        "pk": 48,
+        "fields": {
+            "name": "Оливковое масло 500мл",
+            "description": "Это продукт под названием - оливковое масло 500мл",
+            "image": "",
+            "category": 19,
+            "buying_price": "550.00",
+            "created_at": "2026-09-08",
+            "updated_at": "2026-09-08T13:46:00.000Z"
+        }
+    },
+    {
+        "model": "catalog.product",
+        "pk": 49,
+        "fields": {
+            "name": "Зелёный чай 100г",
+            "description": "Это продукт под названием - зелёный чай 100г",
+            "image": "",
+            "category": 20,
+            "buying_price": "180.00",
+            "created_at": "2026-09-08",
+            "updated_at": "2026-09-08T13:47:00.000Z"
+        }
+    },
+    {
+        "model": "catalog.product",
+        "pk": 50,
+        "fields": {
+            "name": "Свеча ароматическая",
+            "description": "Это продукт под названием - свеча ароматическая",
+            "image": "",
+            "category": 21,
+            "buying_price": "150.00",
+            "created_at": "2026-09-08",
+            "updated_at": "2026-09-08T13:48:00.000Z"
+        }
+    }
+]
