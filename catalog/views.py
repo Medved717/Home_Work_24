@@ -1,4 +1,5 @@
 from django.shortcuts import render
+from .models import Product
 
 
 def contacts(requests):
@@ -6,4 +7,6 @@ def contacts(requests):
 
 
 def home(requests):
-    return render(requests, 'catalog/home.html')
+    products = Product.objects.all()
+    context = {'products': products}
+    return render(requests, 'catalog/home.html', context)
