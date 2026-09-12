@@ -7,3 +7,6 @@ def contacts(requests):
 
 def home(requests):
     return render(requests, 'catalog/home.html')
+
+def example(requests):
+    return render(requests, 'catalog/example.html')
